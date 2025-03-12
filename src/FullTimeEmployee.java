@@ -7,8 +7,9 @@
 public class FullTimeEmployee extends Employee {
     private double annual_salary;
 
-    public FullTimeEmployee(String name, String id) {
+    public FullTimeEmployee(String name, String id, double annual_salary) {
         super(name, id);
+        this.annual_salary = annual_salary;
     }
 
     public double getAnnualSalary() {
